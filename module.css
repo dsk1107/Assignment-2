@@ -1,0 +1,25 @@
+.center {
+	color: #191970;
+	margin-left: 3em;
+	border-left: 5px #000080 solid;
+	padding-left: 1em;
+}
+
+.center h1{
+	text-transform: uppercase;
+	text-shadow: 1px 1px black;
+	letter-spacing: 0.2em;
+}
+
+#list li{
+	list-style-type: circle;
+}
+
+#intro span {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.date {
+	font-size: 0.6em;
+}

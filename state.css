@@ -1,0 +1,64 @@
+@media(max-width: 1000px) {
+	nav {
+		width: auto;
+		float: left;
+	}
+	
+	nav li {
+		display: inline; 
+	}
+	
+	#head{
+		float: none;
+		width: 100%;	
+	}
+	
+	#head img {
+		width: 20%;
+		/*float: right;*/
+	}
+	
+	.footer {
+		position: relative;
+	}
+	
+	h1 {
+		font-size: 25px;
+	}
+
+	h2, h3 {
+		font-size: 80%;
+	}
+} 
+
+@media(max-width: 600px) {
+	
+	#head img {
+		display: none;
+	}
+	
+	nav li {
+		display: block;
+		font-size: 80%;
+	}
+	
+	nav ul {
+		padding: 0;
+	}
+	
+	nav, .center {
+		margin: 0;
+		float: none;
+		border: none;
+	}
+	
+	h1 {
+		font-size: 18px;
+	}
+	
+	.center, .footer {
+		font-size: 80%;
+	}
+}
+
+
